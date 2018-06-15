@@ -1,0 +1,18 @@
+{
+  "pages":[
+    
+    "pages/index/index",
+    "pages/ridding/index",
+    "pages/scanResult/index",
+
+    "components/example/index",
+    "components/dialog/index",
+    "pages/logs/logs"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#7093DB",
+    "navigationBarTitleText": "LOL",
+    "navigationBarTextStyle":"black"
+  }
+}

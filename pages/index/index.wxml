@@ -1,0 +1,4 @@
+<!--index.wxml-->
+<view class='container'>
+  <map id="map" longitude="{{longitude}}" latitude="{{latitude}}" polyline="{{polyline}}" controls="{{controls}}" show-location="true" bindcontroltap="controltap"></map>
+</view>

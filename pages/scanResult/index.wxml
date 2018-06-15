@@ -1,0 +1,15 @@
+<!--pages/scanResult/index.wxml-->
+<view class='container'>
+  <view class='title'>
+    <text>开锁密码</text>
+  </view>
+  <view class='pass'>
+    <text> {{ pass }} </text>
+  </view>
+  <view class='tips'>
+    {{ time }} 秒后开始计费
+    <view class='problem'>
+      车辆有问题？ <text class='redirect'>回首页车辆保障</text>
+    </view>
+  </view>
+</view>

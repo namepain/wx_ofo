@@ -1,0 +1,30 @@
+/* pages/ridding/index.wxss */
+.container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+.number, .end {
+  width: 100%;
+  flex: 2;
+  text-align: center;
+  padding: 60rpx 0;
+}
+
+.time {
+  flex: 6;
+  width: 100%;
+  text-align: center;
+}
+
+.time .time-content {
+  font-size: 100rpx;
+}
+
+.end button {
+  margin-top: 40rpx;
+  width: 90%;
+}

@@ -1,0 +1,18 @@
+<!--pages/ridding/index.wxml-->
+<view class='container'>
+  <view class='number'>
+    <text>当前单车编号: {{ code }}</text>
+  </view>
+  <view class='time'>
+    <view class='time-title'>
+      {{ actionText }}
+    </view>
+    <view class='time-content'>
+      {{ hours }} : {{ minutes }} : {{ seconds }}
+    </view>
+  </view>
+  <view class='end'>
+    <button type='warn' bindtap='endRiding' disabled='{{ endable }}'>结束骑行</button>
+    <button type='primary' bindtap='moveToIndex'>回到地图</button>
+  </view>
+</view>

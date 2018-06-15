@@ -1,0 +1,8 @@
+<!--components/example/index.wxml-->
+<button bindtap='onclick'>click here!</button>
+<dialog id="my-dialog"
+        title="Big title"
+        bind:cancelEvent="_canceled"
+        bind:confirmEvent="_confirmed">
+    写了一个小弹窗~~
+</dialog>

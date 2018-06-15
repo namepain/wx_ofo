@@ -1,0 +1,9 @@
+/* components/example/index.wxss */
+button {
+  width: 300rpx;
+  height: 100rpx;
+  line-height: 100rpx;
+  color: #f0f0f0;
+  background-color: #7093DB;
+  margin: 40vh auto 0;
+}

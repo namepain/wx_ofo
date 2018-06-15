@@ -1,0 +1,33 @@
+/* pages/scanResult/index.wxss */
+.container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.title , .tips{
+  flex: 1;
+  width: 100%;
+  text-align: center;
+  padding: 60rpx 0;
+}
+
+.pass {
+  flex: 8;
+  font-size: 200rpx;
+}
+
+.tips {
+  font-size: 32rpx;
+}
+
+.problem {
+  margin-top: 20rpx
+}
+
+.redirect {
+  color: #7093DB
+}
